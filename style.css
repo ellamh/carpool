@@ -1,0 +1,84 @@
+body {
+    background: #fcfcfc;
+    padding: 1cm 2cm;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+#caption {
+    background: #558C89;
+    background: -webkit-linear-gradient(left top, #558C89, #9ed1ce);
+    background: -o-linear-gradient(bottom right, #558C89, #9ed1ce);
+    background: -moz-linear-gradient(bottom right, #558C89, #9ed1ce);
+    background: linear-gradient(to bottom right, #558C89, #9ed1ce);
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    border-radius: 25px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:link {
+    color: #205e5b;
+}
+
+a:visited {
+    color: #558C89;
+}
+
+a:hover {
+    color: #000000;
+}
+
+a:active {
+    color: #ffffff;
+}
+
+input[type=text] {
+    padding:6px; 
+    border:1px solid #bcbcbc; 
+    -webkit-border-radius: 2px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type=password] {
+    padding:6px; 
+    border:1px solid #bcbcbc; 
+    -webkit-border-radius: 2px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type=submit] {
+    padding:6px 15px; 
+    background:#bcbcbc;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 2px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
